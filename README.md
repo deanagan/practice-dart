@@ -4,6 +4,6 @@ Repo for practicing dart
 
 
 To run test:
-`dart test`
+`flutter pub test` if using flutter sdk, otherwise `pub test`.
 
 Codes are tested in a vscode environment.
