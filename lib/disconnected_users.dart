@@ -1,3 +1,5 @@
+library disconnected_users;
+
 import 'package:tuple/tuple.dart';
 
 class Node {
