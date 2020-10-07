@@ -1,6 +1,6 @@
 name: Dart CI
 
-  
+
 
 on:
   push:
@@ -10,17 +10,11 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
     container:
       image:  google/dart:latest
 
-    steps:
-    - uses: subosito/flutter-action@v1.3.2
-      with:
-        flutter-version: '1.9.1+hotfix.6'
     - name: Install dependencies
-      run: flutter pub get
+      run: pub get
     - name: Run tests
-      run: flutter pub run test
+      run: pub run test
