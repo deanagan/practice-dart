@@ -17,7 +17,8 @@ main() {
   group("Three words test", () {
     List<TestParameter> testParameters = [
       new TestParameter("Hello World hello", true),
-      new TestParameter("He is 123 man", false)
+      new TestParameter("He is 123 man", false),
+      new TestParameter("1 2 3 4", false)
     ];
 
     testParameters.forEach((tp) {
