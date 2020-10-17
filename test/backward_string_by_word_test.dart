@@ -5,6 +5,7 @@ void main() {
   group("Backward string by word test:", () {
     var testParametersToExpectedResult = {
       '': '',
+      'world': 'dlrow',
     };
 
     testParametersToExpectedResult.forEach((input, expected) {
