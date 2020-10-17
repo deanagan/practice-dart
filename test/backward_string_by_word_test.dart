@@ -6,6 +6,7 @@ void main() {
     var testParametersToExpectedResult = {
       '': '',
       'world': 'dlrow',
+      'hello world': 'olleh dlrow',
     };
 
     testParametersToExpectedResult.forEach((input, expected) {
