@@ -8,6 +8,7 @@ void main() {
       'world': 'dlrow',
       'hello world': 'olleh dlrow',
       'hello   world': 'olleh   dlrow',
+      'welcome to a game': 'emoclew ot a emag',
     };
 
     testParametersToExpectedResult.forEach((input, expected) {
