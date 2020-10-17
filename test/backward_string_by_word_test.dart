@@ -7,6 +7,7 @@ void main() {
       '': '',
       'world': 'dlrow',
       'hello world': 'olleh dlrow',
+      'hello   world': 'olleh   dlrow',
     };
 
     testParametersToExpectedResult.forEach((input, expected) {
