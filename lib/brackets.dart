@@ -6,7 +6,7 @@ class Brackets {
     var bracketMap = {'{': '}', '(': ')', '[': ']'};
 
     queue.add('\0');
-    for (var ch in [...input.split('')]) {
+    for (var ch in input.split('')) {
       if (bracketMap.containsKey(ch)) {
         queue.add(bracketMap[ch]);
       } else if (bracketMap.containsValue(ch) && (ch != queue.removeLast())) {
