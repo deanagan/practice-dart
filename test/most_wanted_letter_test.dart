@@ -14,11 +14,11 @@ class TestParameter {
 }
 
 main() {
-  group("Three words test: ", () {
+  group("Most wanted letters test: ", () {
     List<TestParameter> testParameters = [
       new TestParameter("Hello World!", "l"),
       new TestParameter("How do you do?", "o"),
-      new TestParameter("One", "e"),
+      new TestParameter("One", "e"), // return last if tied
     ];
 
     testParameters.forEach((tp) {
