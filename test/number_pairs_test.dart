@@ -19,7 +19,8 @@ class TestParameter {
 main() {
   group("Number pairs test: ", () {
     List<TestParameter> testParameters = [
-      new TestParameter([5, 25, 45, 15], 30, 2)
+      new TestParameter([5, 25, 45, 15], 30, 2),
+      new TestParameter([30, 30, 30], 30, 3),
     ];
 
     testParameters.forEach((tp) {
