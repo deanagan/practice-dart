@@ -21,6 +21,8 @@ main() {
     List<TestParameter> testParameters = [
       new TestParameter([5, 25, 45, 15], 30, 2),
       new TestParameter([30, 30, 30], 30, 3),
+      new TestParameter([17, 13, 30], 30, 1),
+      new TestParameter([338, 172, 7, 3, 29, 1], 30, 2),
     ];
 
     testParameters.forEach((tp) {
