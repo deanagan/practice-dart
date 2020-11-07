@@ -1,5 +1,5 @@
 import "package:test/test.dart";
-import "package:practicedart/split_string.dart";
+import "../lib/split_string.dart";
 
 class TestParameter {
   String input;
