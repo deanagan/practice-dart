@@ -20,6 +20,9 @@ void main() {
     List<TestParameter> testParameters = [
       new TestParameter('abcd', ['ab', 'cd']),
       new TestParameter('abc', ['ab', 'c_']),
+      new TestParameter('abcdf', ['ab', 'cd', 'f_']),
+      new TestParameter('a', ['a_']),
+      new TestParameter('', []),
     ];
 
     testParameters.forEach((tp) {
