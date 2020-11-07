@@ -19,6 +19,7 @@ void main() {
   group("Split string test: ", () {
     List<TestParameter> testParameters = [
       new TestParameter('abcd', ['ab', 'cd']),
+      new TestParameter('abc', ['ab', 'c_']),
     ];
 
     testParameters.forEach((tp) {
