@@ -12,7 +12,7 @@ class StringSplitter {
   StringSplitter({this.splitBy = 2});
 
   List<String> split(String input) {
-    var result = input.isEmpty ? [] : [input.getFirstTwoOrFill()];
+    List<String> result = input.isEmpty ? [] : [input.getFirstTwoOrFill()];
     if (input.length > 2) {
       result.addAll(split(input.substring(2)));
     }
