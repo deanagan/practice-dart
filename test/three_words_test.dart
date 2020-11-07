@@ -1,5 +1,5 @@
 import "package:test/test.dart";
-import "package:practicedart/three_words.dart";
+import "../lib/three_words.dart";
 
 class TestParameter {
   String text;

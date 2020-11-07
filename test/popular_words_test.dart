@@ -1,6 +1,5 @@
-import 'package:practicedart/popular_words.dart';
 import "package:test/test.dart";
-import "package:practicedart/stressful_subject.dart";
+import '../lib/popular_words.dart';
 
 class TestParameter {
   String input;

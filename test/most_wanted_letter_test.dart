@@ -1,5 +1,5 @@
 import "package:test/test.dart";
-import "package:practicedart/most_wanted_letter.dart";
+import "../lib/most_wanted_letter.dart";
 
 class TestParameter {
   String text;

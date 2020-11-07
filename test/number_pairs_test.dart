@@ -1,5 +1,5 @@
 import "package:test/test.dart";
-import "package:practicedart/number_pairs.dart";
+import "../lib/number_pairs.dart";
 
 class TestParameter {
   List<int> numbers;

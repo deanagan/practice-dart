@@ -1,6 +1,6 @@
 import "package:test/test.dart";
 import 'package:collection/collection.dart';
-import "package:practicedart/bigger_price.dart";
+import "../lib/bigger_price.dart";
 
 class TestParameter {
   int limit;

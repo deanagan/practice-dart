@@ -17,7 +17,7 @@ Precondition: Subject can be up to 100 letters
 */
 
 import "package:test/test.dart";
-import "package:practicedart/stressful_subject.dart";
+import "../lib/stressful_subject.dart";
 
 class TestParameter {
   String subject;

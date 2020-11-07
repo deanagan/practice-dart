@@ -1,5 +1,5 @@
 import "package:test/test.dart";
-import "package:practicedart/backward_string_by_word.dart";
+import "../lib/backward_string_by_word.dart";
 
 void main() {
   group("Backward string by word test:", () {

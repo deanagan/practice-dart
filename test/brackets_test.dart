@@ -1,5 +1,5 @@
 import 'package:test/test.dart';
-import "package:practicedart/brackets.dart";
+import "../lib/brackets.dart";
 
 class TestParameter {
   String input;

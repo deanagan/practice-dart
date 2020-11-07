@@ -1,5 +1,5 @@
 import "package:test/test.dart";
-import "package:practicedart/between_markers.dart";
+import "../lib/between_markers.dart";
 
 void main() {
   group("Between markers should return data correctly:", () {

@@ -1,6 +1,6 @@
 import "package:test/test.dart";
 import 'package:tuple/tuple.dart';
-import "package:practicedart/disconnected_users.dart";
+import "../lib/disconnected_users.dart";
 
 class TestParameter {
   List<Tuple2<String, String>> edges;
