@@ -18,7 +18,10 @@ main() {
     List<TestParameter> testParameters = [
       new TestParameter("hi", 0),
       new TestParameter('who is 1st here', 0),
-      new TestParameter('my numbers is 2', 2)
+      new TestParameter('my numbers is 2', 2),
+      new TestParameter('''This picture is an oil on canvas
+                           painting by Danish artist Anna '
+                           Petersen between 1845 and 1910 year''', 3755)
     ];
 
     testParameters.forEach((tp) {
