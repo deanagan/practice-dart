@@ -23,6 +23,7 @@ main() {
                            painting by Danish artist Anna '
                            Petersen between 1845 and 1910 year''', 3755),
       new TestParameter('5 plus 6 is', 11),
+      new TestParameter('', 0)
     ];
 
     testParameters.forEach((tp) {
