@@ -17,6 +17,8 @@ main() {
   group("Sum numbers test: ", () {
     List<TestParameter> testParameters = [
       new TestParameter("hi", 0),
+      new TestParameter('who is 1st here', 0),
+      new TestParameter('my numbers is 2', 2)
     ];
 
     testParameters.forEach((tp) {
