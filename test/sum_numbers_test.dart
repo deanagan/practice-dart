@@ -21,7 +21,8 @@ main() {
       new TestParameter('my numbers is 2', 2),
       new TestParameter('''This picture is an oil on canvas
                            painting by Danish artist Anna '
-                           Petersen between 1845 and 1910 year''', 3755)
+                           Petersen between 1845 and 1910 year''', 3755),
+      new TestParameter('5 plus 6 is', 11),
     ];
 
     testParameters.forEach((tp) {
