@@ -15,10 +15,6 @@ class Sorter {
     var stack = Stack<int>();
     var result = List<int>();
 
-    if (numbers.isEmpty) {
-      return result;
-    }
-
     numbers.forEach((element) {
       if (stack.isNotEmpty && stack.top() >= element) {
         result.addAll(stack.popAll());
