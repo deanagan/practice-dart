@@ -28,15 +28,17 @@ class Moore {
   ];
 
   int countNeighbors(List<List<int>> matrix, int row, int col) {
-    return 0;
+    var count = 0;
+    offsets.forEach((offset) {
+      final nrow = row + offset.item1;
+      final ncol = col + offset.item2;
+      if (nrow >= 0 &&
+          nrow < matrix[0].length &&
+          ncol >= 0 &&
+          ncol < matrix.length) {
+        count += matrix[nrow][ncol];
+      }
+    });
+    return count;
   }
-}
-
-main(List<String> args) {
-  var m = Moore();
-  print(m.countNeighbors([
-    [1, 2, 3],
-    [4, 5, 6],
-    [7, 8, 9]
-  ], 1, 1));
 }
