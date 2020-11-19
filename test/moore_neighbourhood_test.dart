@@ -11,7 +11,7 @@ class TestParameter {
 
   @override
   String toString() {
-    return """($this.row, $this.col) in matrix: $matrix has $expected neighbours.""";
+    return """($row, $col) in matrix: $matrix has $expected neighbours.""";
   }
 }
 
