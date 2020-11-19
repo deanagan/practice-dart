@@ -1,5 +1,5 @@
 import "package:test/test.dart";
-import "../lib/moore_neighborhood.dart";
+import '../lib/moore_neighborhood.dart';
 
 class TestParameter {
   List<List<int>> matrix;
