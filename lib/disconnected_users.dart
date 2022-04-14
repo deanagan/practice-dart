@@ -5,7 +5,7 @@ import 'package:tuple/tuple.dart';
 class Node {
   String name;
   int count;
-  List<Node> connections = new List<Node>();
+  var connections = <Node>[];
   Node(this.name, this.count);
 
   String toString() {
@@ -43,8 +43,8 @@ class NetworkInfo {
   }
 
   List<String> getVisitedNodes(String source, List<String> crushes) {
-    var visited = new List<String>();
-    var connected = new List<Node>();
+    var visited = <String>[];
+    var connected = <Node>[];
 
     connected.add(nodeLookUp[source]);
     while (connected.isNotEmpty) {

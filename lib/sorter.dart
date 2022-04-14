@@ -13,7 +13,7 @@ extension StackPopper on Stack<int> {
 class Sorter {
   List<int> sortReverseAscending(List<int> numbers) {
     var stack = Stack<int>();
-    var result = List<int>();
+    var result = <int>[];
 
     numbers.forEach((element) {
       if (stack.isNotEmpty && stack.top() >= element) {

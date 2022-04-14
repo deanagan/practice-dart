@@ -9,6 +9,6 @@ class SumNumbers {
 
     return text
         .split(' ')
-        .fold(0, (total, val) => int.parse(val, onError: (s) => 0) + total);
+        .fold(0, (total, val) => (int.tryParse(val) ?? 0) + total);
   }
 }
